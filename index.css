@@ -1,25 +1,7 @@
 
-footer {
-    display: flex;
-    border-style: solid;
-    color: #51260e;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
-}
-/* Cor da letra e borda de todo o footer, display flex para ajustar as imagens ao lado do texto */
-.tamanho {
-    width: 5vw;
-    height: 5vh;
-    margin: 10px;
-}
-/* Ajuste de tamanho das imagens de Redes Sociais no footer */
-
-
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 header{
@@ -38,23 +20,47 @@ header{
     justify-content: center;
     
 }
+/* Ajustes na imagem do header */
 
-a{
+a:hover {
+    background-color:blue;
+}
+/* Mudança de cor ao passar o mouse nos botões */
+
+a:active {
+    background-color: rgb(160, 160, 23);
+}
+
+.botao{
     color: black;
-    background-color: wheat;
+    background-color: #51260e;
     margin: 5px;
     font-weight: 700;
     cursor: pointer;
 
 }
+/* tags <a> do header */
 
-a:hover {
-    background-color:blue;
+footer {
+    display: flex;
+    border-style: solid;
+    color: #51260e;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
 }
+/* Cor da letra e borda de todo o footer, display flex para ajustar as imagens ao lado do texto */
 
-a:active {
-    background-color: rgb(160, 160, 23);
+.tamanho {
+    width: 5vw;
+    height: 5vh;
+    margin: 10px;
 }
+/* Ajuste de tamanho das imagens de Redes Sociais no footer */
+
+
+
+
 
 .container {
     display: flex;
