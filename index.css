@@ -1,3 +1,21 @@
+
+footer {
+    display: flex;
+    border-style: solid;
+    color: #51260e;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+/* Cor da letra e borda de todo o footer, display flex para ajustar as imagens ao lado do texto */
+.tamanho {
+    width: 5vw;
+    height: 5vh;
+    margin: 10px;
+}
+/* Ajuste de tamanho das imagens de Redes Sociais no footer */
+
+
 *{
     margin: 0;
     padding: 0;
@@ -53,4 +71,5 @@ h3 {
     background-color: aqua;
     height: 300px;
 }
+
 
