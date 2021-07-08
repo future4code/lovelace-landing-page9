@@ -1,3 +1,4 @@
+
 footer {
     display: flex;
     border-style: solid;
@@ -13,5 +14,62 @@ footer {
     margin: 10px;
 }
 /* Ajuste de tamanho das imagens de Redes Sociais no footer */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: red;
+    display: flex;
+    height: 40px;
+    margin-right: 12px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    height: 30px;
+    align-items: center;
+    margin: 12px;
+    justify-content: center;
+    
+}
+
+a{
+    color: black;
+    background-color: wheat;
+    margin: 5px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+a:hover {
+    background-color:blue;
+}
+
+a:active {
+    background-color: rgb(160, 160, 23);
+}
+
+.container {
+    display: flex;
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.container-cadastro {
+    display: flex;
+    background-color: aqua;
+    height: 300px;
+}
 
 

@@ -1,0 +1,16 @@
+.main{
+    text-align: center;
+}
+
+.login{
+    position: relative;
+    float: right;    
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: beige;
+    cursor: pointer;
+}
