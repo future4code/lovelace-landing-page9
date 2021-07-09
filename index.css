@@ -4,32 +4,27 @@
     padding: 0;
 }
 
+body {
+    width: 100vw;
+}
+
 header{
-    background-color: red;
     display: flex;
+    border-style: solid;
+    color: #51260e;
     height: 40px;
-    margin-right: 12px;
     justify-content: space-around;
     align-items: center;
 }
 
 .logo {
-    height: 30px;
+    height: 30rem;
     align-items: center;
     margin: 12px;
     justify-content: center;
     
 }
 /* Ajustes na imagem do header */
-
-a:hover {
-    background-color:blue;
-}
-/* Mudança de cor ao passar o mouse nos botões */
-
-a:active {
-    background-color: rgb(160, 160, 23);
-}
 
 .botao{
     color: black;
@@ -46,30 +41,33 @@ footer {
     border-style: solid;
     color: #51260e;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     justify-content: space-between;
 }
 /* Cor da letra e borda de todo o footer, display flex para ajustar as imagens ao lado do texto */
 
-.tamanho {
-    width: 5vw;
-    height: 5vh;
-    margin: 10px;
+.rodape {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
 }
-/* Ajuste de tamanho das imagens de Redes Sociais no footer */
+/* Ajuste de de direção do footer*/
 
+.tam-img {
+    width: 100vw;
+}
 
-
-
+.tam-redes {
+    width: 15vw;
+    height: 40px;
+}
 
 .container {
     display: flex;
 }
 
-h3 {
-    display: flex;
-    align-items: center;
-    justify-items: center;
+.texto {
+    width: 50vw;
 }
 
 .container-cadastro {
