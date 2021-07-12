@@ -1,0 +1,159 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    background-image: url(img/4food.png);
+    background-size: cover;
+    background-position-x: 10px;
+    background-position-y: -200px;
+}
+
+header{
+    display: flex;
+    border-style: solid;
+    color: #51260e;
+    height: 40px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    height: 30rem;
+    align-items: center;
+    margin: 12px;
+    justify-content: center;
+    
+}
+
+form{    
+    margin-top: 100px;
+    margin-left: 500px;
+    text-align: center;
+}
+fieldset{
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+}
+legend{
+    font-size: 15pt;
+}
+input[type=submit]{
+    width: 100px;
+}
+input[type=email], input[type=password]{
+    width: 300px;
+}
+.contas{
+    margin-left: 600px;
+    margin-top: 50px;
+    font-size: 20pt;
+}
+.face{
+    margin-right: 80px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.google{
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.imagem{
+    position: relative;
+    left: 430px;
+    display: flex;
+}
+/* Ajustes na imagem do header */
+
+.botao{
+    color: black;
+    background-color: #51260e;
+    margin: 5px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+/* tags <a> do header */
+
+footer {
+    margin-top: 40px;
+    display: flex;
+    border-style: solid;
+    color: #51260e;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-between;
+}
+/* Cor da letra e borda de todo o footer, display flex para ajustar as imagens ao lado do texto */
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+}
+/* Ajuste de de direção do footer*/
+
+.tam-img {
+    width: 100vw;
+}
+
+.tam-redes {
+    width: 10vw;
+    height: 40px;    
+}
+.tam-redes_twitter{
+    width: 5vw;
+    height: 40px;
+}
+
+.container {
+    display: flex;
+}
+
+.texto {
+    width: 50vw;
+}
+
+.container-cadastro {
+    display: flex;
+    background-color: aqua;
+    height: 300px;    
+}
+
+.main{
+    text-align: center;
+}
+
+.login{
+    position: relative;
+    float: right;    
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: beige;
+    cursor: pointer;
+}
+
+.main{
+    text-align: center;
+}
+
+.login{
+    position: relative;
+    float: right;    
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: beige;
+    cursor: pointer;
+}
