@@ -78,10 +78,26 @@ input[type=email], input[type=password]{
     cursor: pointer;
 
 }
+.btn1{
+    position: relative;
+    float: right;
+    top: 300px;
+    right: 30px;
+    height: 50px;
+    font-size: 13pt;
+}
+.btn2{
+    position: relative;
+    float: left;
+    top: 300px;
+    left: 30px;
+    height: 50px;
+    font-size: 13pt;
+}
 /* tags <a> do header */
 
 footer {
-    margin-top: 40px;
+    margin-top: 560px;
     display: flex;
     border-style: solid;
     color: #51260e;
